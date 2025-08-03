@@ -1,0 +1,25 @@
+[package]
+name = "matrix-lib"
+version = "0.1.0"
+edition = "2021"
+authors = ["Your Name <your.email@example.com>"]
+description = "A generic matrix library for Rust with basic linear algebra operations"
+license = "MIT OR Apache-2.0"
+readme = "README.md"
+repository = "https://github.com/code-wolf-byte/matrix-lib"
+keywords = ["matrix", "linear-algebra", "math", "mathematics"]
+categories = ["mathematics", "algorithms", "data-structures"]
+
+[lib]
+name = "matrix_lib"
+path = "src/lib.rs"
+
+[[bin]]
+name = "matrix_example"
+path = "src/main.rs"
+
+[[example]]
+name = "ndarray_demo"
+path = "examples/ndarray_demo.rs"
+
+[dependencies]
