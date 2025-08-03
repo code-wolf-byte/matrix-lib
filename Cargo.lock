@@ -3,5 +3,5 @@
 version = 4
 
 [[package]]
-name = "neural-network"
+name = "matrix-lib"
 version = "0.1.0"

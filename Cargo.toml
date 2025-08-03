@@ -18,4 +18,8 @@ path = "src/lib.rs"
 name = "matrix_example"
 path = "src/main.rs"
 
+[[example]]
+name = "ndarray_demo"
+path = "examples/ndarray_demo.rs"
+
 [dependencies]
