@@ -11,8 +11,9 @@ keywords = ["matrix", "linear-algebra", "math", "mathematics"]
 categories = ["mathematics", "algorithms", "data-structures"]
 
 [lib]
-name = "matrix_lib"
+name = "matrix_lib_python"
 path = "src/lib.rs"
+crate-type = ["cdylib", "rlib"]
 
 [[bin]]
 name = "matrix_example"
@@ -23,3 +24,4 @@ name = "ndarray_demo"
 path = "examples/ndarray_demo.rs"
 
 [dependencies]
+pyo3 = { version = "0.25", features = ["extension-module"] }

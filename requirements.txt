@@ -1,0 +1,12 @@
+# Python dependencies for matrix-lib-python
+# Core dependencies
+maturin>=1.0,<2.0
+
+# Development and testing dependencies
+pytest>=6.0
+numpy>=1.20
+
+# Optional: for better development experience
+black>=22.0
+flake8>=4.0
+mypy>=0.950 

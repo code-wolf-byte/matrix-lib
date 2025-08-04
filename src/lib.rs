@@ -58,6 +58,7 @@
 //! ```
 
 pub mod utils;
+pub mod python_bindings;
 
 // Re-export the main types for easier access
 pub use utils::{Matrix, NDArray, NDArrayError};

@@ -237,7 +237,7 @@ where
     T: Display + Clone + Default,
 {
     fn fmt_1d(&self, f: &mut Formatter<'_>) -> fmt::Result {
-        write!(f, "[")?; Rust, <T> is a generic type parameter — it's not the same as Python's Any or dynamically typed languages.
+        write!(f, "[")?;
         for (i, item) in self.data.iter().enumerate() {
             if i > 0 {
                 write!(f, ", ")?;
